@@ -1,0 +1,41 @@
+.character-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.character-form {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-form input {
+  flex: 1 1 120px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.character-form button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.character-form button:hover {
+    background-color: #ff0000;
+}
+
+.character-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 16rem);
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 55rem;
+}
